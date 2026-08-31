@@ -2,7 +2,7 @@
 
 Official plugin catalog for the Theodia app.
 
-This repository hosts plugin packages (`.theoplugin`) and a `plugins.json` catalog
+This repository hosts plugin packages (`.theoplugin.zip`) and a `plugins.json` catalog
 so the app can discover and download plugins on demand. No plugins are
 pre-bundled in production builds at this time.
 
@@ -12,8 +12,7 @@ pre-bundled in production builds at this time.
 /
 ├── README.md
 ├── plugins.json          # Catalog of available plugins
-└── packages/
-    └── <plugin-id>-<version>.theoplugin
+└── <plugin-id>.theoplugin.zip   # Plugin package zip (latest version)
 ```
 
 ## Catalog
@@ -28,17 +27,18 @@ Each entry contains:
 
 - `id` — plugin identifier
 - `name` — display name
-- `version` — latest semver version
-- `downloadUrl` — absolute URL to the `.theoplugin` package
+- `version` — latest semver version (from the manifest inside the zip)
+- `downloadUrl` — absolute URL to the `.theoplugin.zip` package
 - `minAppVersion` — minimum Theodia app version required
 - `description` — short description
 - `icon` — URL to the plugin icon (optional)
 
 ## Plugin packages
 
-A `.theoplugin` file is a zip archive containing the plugin directory contents at
+A `.theoplugin.zip` file is a zip archive containing the plugin directory contents at
 its root: `plugin.json`, `content.json` (for capability plugins), referenced
-assets, databases, etc.
+assets, databases, etc. The plugin version lives only in `plugin.json` and the
+`plugins.json` catalog, not in the zip filename.
 
 ## Authoring plugins
 
@@ -51,5 +51,5 @@ Local development plugins live in the main Theodia repo under
 npm run package-plugins
 ```
 
-This produces `packages/` and `plugins.json` in the local clone of this repo,
-ready to be committed and pushed manually.
+This produces `.theoplugin.zip` files and `plugins.json` at the root of the local
+clone of this repo, ready to be committed and pushed manually.
