@@ -40,6 +40,9 @@ its root: `plugin.json`, `content.json` (for capability plugins), referenced
 assets, databases, etc. The plugin version lives only in `plugin.json` and the
 `plugins.json` catalog, not in the zip filename.
 
+Set `"active": false` in `plugin.json` to keep a plugin in local development
+without publishing it. Inactive plugins are skipped by the packaging script.
+
 ## Authoring plugins
 
 See the [plugin manifest schema documentation](https://github.com/ecodiallc/theodia.plugins/wiki) in the repo wiki.
