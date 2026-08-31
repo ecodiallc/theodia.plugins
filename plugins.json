@@ -1,87 +1,87 @@
 {
-  "generatedAt": "2026-08-31T18:08:50.554Z",
+  "generatedAt": "2026-08-31T19:48:26.369Z",
   "plugins": [
     {
       "id": "test.chapter",
       "name": "Test Chapter",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.chapter.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.chapter.plugin.zip",
       "description": "A test plugin demonstrating chapter-level data via the chapter header menu"
     },
     {
       "id": "test.db",
       "name": "Test DB",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.db.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.db.plugin.zip",
       "description": "A test plugin with CRUD database"
     },
     {
       "id": "test.detail",
       "name": "Test Detail",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.detail.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.detail.plugin.zip",
       "description": "A test plugin demonstrating the detail screen type"
     },
     {
       "id": "test.flashcards",
       "name": "Flashcards",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.flashcards.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.flashcards.plugin.zip",
       "description": "A simple flashcard plugin for testing memory verses"
     },
     {
       "id": "test.html",
       "name": "Test HTML",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.html.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.html.plugin.zip",
       "description": "A minimal test HTML plugin"
     },
     {
       "id": "test.verse",
       "name": "Test Verse",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.verse.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.verse.plugin.zip",
       "description": "A test plugin demonstrating verse-level data without a database"
     },
     {
       "id": "theodia.prayer",
       "name": "Prayer Generator",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.prayer.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.prayer.plugin.zip",
       "description": "Generate prayers inspired by Bible passages"
     },
     {
       "id": "theodia.reading-plans",
       "name": "Reading Plans",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.reading-plans.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.reading-plans.plugin.zip",
       "description": "Create and manage personalized Bible reading plans"
     },
     {
       "id": "theodia.sermon",
       "name": "Sermon Outlines",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.sermon.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.sermon.plugin.zip",
       "description": "Generate sermon and teaching outlines from Bible passages"
     },
     {
       "id": "theodia.study-plans",
       "name": "Study Plans",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.study-plans.theoplugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.study-plans.plugin.zip",
       "description": "Create and manage topical Bible study plans"
     },
     {
       "id": "theodia.playlist-starter",
       "name": "Playlist Starter",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.playlist-starter.theoplugin.zip"
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.playlist-starter.plugin.zip"
     },
     {
       "id": "theodia.theoscript-starter",
       "name": "Theoscript Starter",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.theoscript-starter.theoplugin.zip"
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.theoscript-starter.plugin.zip"
     }
   ]
 }
