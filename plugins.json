@@ -1,33 +1,19 @@
 {
-  "generatedAt": "2026-09-07T15:59:15.504Z",
+  "generatedAt": "2026-09-07T16:06:20.756Z",
   "plugins": [
     {
-      "id": "theodia.prayer",
-      "name": "Prayer Generator",
+      "id": "theodia.test.ai.verse-prayer",
+      "name": "Prayer Generator (Test)",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.prayer.plugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.ai.verse-prayer.plugin.zip",
       "description": "Generate prayers inspired by Bible passages"
     },
     {
-      "id": "theodia.reading-plans",
-      "name": "Reading Plans",
+      "id": "theodia.test.ai.chapter-sermon",
+      "name": "Sermon Outlines (Test)",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.reading-plans.plugin.zip",
-      "description": "Create and manage personalized Bible reading plans"
-    },
-    {
-      "id": "theodia.sermon",
-      "name": "Sermon Outlines",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.sermon.plugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.ai.chapter-sermon.plugin.zip",
       "description": "Generate sermon and teaching outlines from Bible passages"
-    },
-    {
-      "id": "theodia.study-plans",
-      "name": "Study Plans",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.study-plans.plugin.zip",
-      "description": "Create and manage topical Bible study plans"
     },
     {
       "id": "theodia.test.chapter",
