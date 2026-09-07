@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T13:58:38.632Z",
+  "generatedAt": "2026-09-07T15:53:01.477Z",
   "plugins": [
     {
       "id": "theodia.prayer",
@@ -32,9 +32,9 @@
     {
       "id": "theodia.test.chapter",
       "name": "Test Chapter",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.chapter.plugin.zip",
-      "description": "A test plugin demonstrating chapter-level data via the chapter header menu"
+      "description": "A test plugin demonstrating chapter-level data and a Theoscript statistics page via the chapter toolbar"
     },
     {
       "id": "theodia.test.db",
@@ -56,13 +56,6 @@
       "version": "0.1.0",
       "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.html.plugin.zip",
       "description": "A minimal test HTML plugin"
-    },
-    {
-      "id": "theodia.test.verse-menu",
-      "name": "Test Verse",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.verse-menu.plugin.zip",
-      "description": "A test plugin demonstrating verse-level data without a database"
     }
   ]
 }
