@@ -1,41 +1,6 @@
 {
-  "generatedAt": "2026-09-07T13:19:55.586Z",
+  "generatedAt": "2026-09-07T13:58:38.632Z",
   "plugins": [
-    {
-      "id": "test.chapter",
-      "name": "Test Chapter",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.chapter.plugin.zip",
-      "description": "A test plugin demonstrating chapter-level data via the chapter header menu"
-    },
-    {
-      "id": "test.db",
-      "name": "Test DB",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.db.plugin.zip",
-      "description": "A test plugin with CRUD database"
-    },
-    {
-      "id": "test.detail",
-      "name": "Test Detail",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.detail.plugin.zip",
-      "description": "A test plugin demonstrating the detail screen type"
-    },
-    {
-      "id": "test.html",
-      "name": "Test HTML",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.html.plugin.zip",
-      "description": "A minimal test HTML plugin"
-    },
-    {
-      "id": "theodia.test.verse-menu",
-      "name": "Test Verse",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.verse-menu.plugin.zip",
-      "description": "A test plugin demonstrating verse-level data without a database"
-    },
     {
       "id": "theodia.prayer",
       "name": "Prayer Generator",
@@ -63,6 +28,41 @@
       "version": "0.1.0",
       "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.study-plans.plugin.zip",
       "description": "Create and manage topical Bible study plans"
+    },
+    {
+      "id": "theodia.test.chapter",
+      "name": "Test Chapter",
+      "version": "0.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.chapter.plugin.zip",
+      "description": "A test plugin demonstrating chapter-level data via the chapter header menu"
+    },
+    {
+      "id": "theodia.test.db",
+      "name": "Test DB",
+      "version": "0.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.db.plugin.zip",
+      "description": "A test plugin with CRUD database"
+    },
+    {
+      "id": "theodia.test.detail",
+      "name": "Test Detail",
+      "version": "0.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.detail.plugin.zip",
+      "description": "A test plugin demonstrating the detail screen type"
+    },
+    {
+      "id": "theodia.test.html",
+      "name": "Test HTML",
+      "version": "0.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.html.plugin.zip",
+      "description": "A minimal test HTML plugin"
+    },
+    {
+      "id": "theodia.test.verse-menu",
+      "name": "Test Verse",
+      "version": "0.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.verse-menu.plugin.zip",
+      "description": "A test plugin demonstrating verse-level data without a database"
     }
   ]
 }
