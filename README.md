@@ -78,3 +78,10 @@ To delete a plugin from dev, the clone, and the catalog:
 ```bash
 npm run delete-plugin-dev -- <plugin-id>
 ```
+
+## Theodia app
+
+Download the app:
+
+- [App Store](https://apps.apple.com/us/app/theodia/id6783143344)
+- [Google Play](https://play.google.com/store/apps/details?id=com.ecodia.theodia)
