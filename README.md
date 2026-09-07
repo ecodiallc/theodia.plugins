@@ -37,18 +37,13 @@ Each entry contains:
 
 | ID | Name | Version | Description |
 |---|---|---|---|
-| `test.chapter` | Test Chapter | 0.1.0 | A test plugin demonstrating chapter-level data via the chapter header menu |
-| `test.db` | Test DB | 0.1.0 | A test plugin with CRUD database |
-| `test.detail` | Test Detail | 0.1.0 | A test plugin demonstrating the detail screen type |
-| `test.flashcards` | Flashcards | 0.1.0 | A simple flashcard plugin for testing memory verses |
-| `test.html` | Test HTML | 0.1.0 | A minimal test HTML plugin |
-| `test.verse` | Test Verse | 0.1.0 | A test plugin demonstrating verse-level data without a database |
-| `theodia.prayer` | Prayer Generator | 0.1.0 | Generate prayers inspired by Bible passages |
-| `theodia.reading-plans` | Reading Plans | 0.1.0 | Create and manage personalized Bible reading plans |
-| `theodia.sermon` | Sermon Outlines | 0.1.0 | Generate sermon and teaching outlines from Bible passages |
-| `theodia.study-plans` | Study Plans | 0.1.0 | Create and manage topical Bible study plans |
-| `theodia.playlist-starter` | Playlist Starter | 0.1.0 | Starter plugin for the playlist feature |
-| `theodia.theoscript-starter` | Theoscript Starter | 0.1.0 | Starter plugin for the theoscript feature |
+| `theodia.test.ai.chapter-sermon` | Sermon Outlines (Test) | 0.1.0 | Generate sermon and teaching outlines from Bible passages |
+| `theodia.test.ai.verse-prayer` | Prayer Generator (Test) | 0.1.0 | Generate prayers inspired by Bible passages |
+| `theodia.test.chapter` | Test Chapter | 0.2.0 | A test plugin demonstrating chapter-level data and a Theoscript statistics page via the chapter toolbar |
+| `theodia.test.db` | Test DB | 0.1.0 | A test plugin with CRUD database |
+| `theodia.test.detail` | Test Detail | 0.1.0 | A test plugin demonstrating the detail screen type |
+| `theodia.test.flashcards` | Test Flashcards | 0.1.0 | A test plugin providing flashcard data from the legacy flashcards database |
+| `theodia.test.html` | Test HTML | 0.1.0 | A minimal test HTML plugin |
 
 ## Plugin packages
 
@@ -68,8 +63,18 @@ Local development plugins live in the main Theodia repo under
 `assets/data/plugins_dev/` and are packaged with:
 
 ```bash
+# Package all dev plugins (regenerates the full catalog)
 npm run package-plugins
+
+# Package only a single plugin (merges its entry into the existing catalog)
+npm run package-plugins -- <plugin-id>
 ```
 
 This produces `.plugin.zip` files and `plugins.json` at the root of the local
 clone of this repo, ready to be committed and pushed manually.
+
+To delete a plugin from dev, the clone, and the catalog:
+
+```bash
+npm run delete-plugin-dev -- <plugin-id>
+```

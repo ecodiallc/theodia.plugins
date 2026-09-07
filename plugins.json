@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-07T16:06:20.756Z",
+  "generatedAt": "2026-09-07T16:48:53.525Z",
   "plugins": [
-    {
-      "id": "theodia.test.ai.verse-prayer",
-      "name": "Prayer Generator (Test)",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.ai.verse-prayer.plugin.zip",
-      "description": "Generate prayers inspired by Bible passages"
-    },
     {
       "id": "theodia.test.ai.chapter-sermon",
       "name": "Sermon Outlines (Test)",
       "version": "0.1.0",
       "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.ai.chapter-sermon.plugin.zip",
       "description": "Generate sermon and teaching outlines from Bible passages"
+    },
+    {
+      "id": "theodia.test.ai.verse-prayer",
+      "name": "Prayer Generator (Test)",
+      "version": "0.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.ai.verse-prayer.plugin.zip",
+      "description": "Generate prayers inspired by Bible passages"
     },
     {
       "id": "theodia.test.chapter",
@@ -35,6 +35,13 @@
       "version": "0.1.0",
       "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.detail.plugin.zip",
       "description": "A test plugin demonstrating the detail screen type"
+    },
+    {
+      "id": "theodia.test.flashcards",
+      "name": "Test Flashcards",
+      "version": "0.1.0",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.flashcards.plugin.zip",
+      "description": "A test plugin providing flashcard data from the legacy flashcards database"
     },
     {
       "id": "theodia.test.html",
