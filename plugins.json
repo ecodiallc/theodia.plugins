@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T19:48:26.369Z",
+  "generatedAt": "2026-09-07T13:19:55.586Z",
   "plugins": [
     {
       "id": "test.chapter",
@@ -23,13 +23,6 @@
       "description": "A test plugin demonstrating the detail screen type"
     },
     {
-      "id": "test.flashcards",
-      "name": "Flashcards",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.flashcards.plugin.zip",
-      "description": "A simple flashcard plugin for testing memory verses"
-    },
-    {
       "id": "test.html",
       "name": "Test HTML",
       "version": "0.1.0",
@@ -37,10 +30,10 @@
       "description": "A minimal test HTML plugin"
     },
     {
-      "id": "test.verse",
+      "id": "theodia.test.verse-menu",
       "name": "Test Verse",
       "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/test.verse.plugin.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.test.verse-menu.plugin.zip",
       "description": "A test plugin demonstrating verse-level data without a database"
     },
     {
@@ -70,18 +63,6 @@
       "version": "0.1.0",
       "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.study-plans.plugin.zip",
       "description": "Create and manage topical Bible study plans"
-    },
-    {
-      "id": "theodia.playlist-starter",
-      "name": "Playlist Starter",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.playlist-starter.plugin.zip"
-    },
-    {
-      "id": "theodia.theoscript-starter",
-      "name": "Theoscript Starter",
-      "version": "0.1.0",
-      "downloadUrl": "https://raw.githubusercontent.com/ecodiallc/theodia.plugins/main/theodia.theoscript-starter.plugin.zip"
     }
   ]
 }
